@@ -11,4 +11,5 @@ def main():
     print(food)
     print(pricefood)
     print(food)
+    print(name)
 main()
