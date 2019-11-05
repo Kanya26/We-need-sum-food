@@ -5,7 +5,7 @@ def main():
     name = name.split(" ")
     food = input("food's name :")
     food = food.split(" ")
-    pricefood = int(input("price's food :"))
+    pricefood = input("price's food :")
     pricefood = picefood.split(" ") 
     print(name)
     print(food)
