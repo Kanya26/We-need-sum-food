@@ -2,19 +2,27 @@
 import json
 def main():
     """cost"""
-    foodandprice = input()
-    foodandprice = json.loads(foodandprice)
-    pay = {}
+    glist = []
+    group = {}
     count = 0
-    for i,j in foodandprice.items():
+    food = input()
+    food = json.loads(food)
+    while 1:
+        name = input()
+        if name == "End":
+            break
+        group[name] = 0
+    for i, j in food.items():
         while 1:
             name = input()
-            pay[name] = 0
             if name == "End":
                 break
+            glist.append(name)
             count += 1
         total = j/count
-        pay[name] += total
+        for i in glist:
+            group[i] = group.get(i)+total
         count = 0
-    print(pay)
+        glist = []
+    print(group)
 main()
