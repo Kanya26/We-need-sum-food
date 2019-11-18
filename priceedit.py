@@ -1,28 +1,28 @@
 """How much does it cost?"""
 import json
 def main():
-    """cost"""
-    glist = []
+    """Use dictionary as input. if you want to stop to input yourname ,you can input("End")"""
+    group_of_list = []
     group = {}
     count = 0
-    food = input()
-    food = json.loads(food)
-    while 1:
-        name = input()
-        if name == "End":
+    dict_input_food_and_price = input()
+    dict_input_food_and_price = json.loads(dict_input_food_and_price)
+    while True:
+        yourname = input()
+        if yourname == "End":
             break
-        group[name] = 0
-    for i, j in food.items():
-        while 1:
-            name = input()
-            if name == "End":
+        group[yourname] = 0
+    for food, price in dict_input_food_and_price.items():
+        while True:
+            yourname = input()
+            if yourname == "End":
                 break
-            glist.append(name)
+            group_of_list.append(yourname)
             count += 1
-        total = j/count
-        for i in glist:
-            group[i] = group.get(i)+total
+        total = price/count
+        for food in group_of_list:
+            group[food] = group.get(food)+total
         count = 0
-        glist = []
+        group_of_list = []
     print(group)
 main()
