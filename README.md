@@ -18,7 +18,7 @@
 <li>ใช้ JavaScript รวมกับ HTML และใช้ Responsive Web Design ให้ออกมาเป็น Web application</li>
 </ol>
 
-<h2>สิ่งที่คาดว่าจะได้รับ <img src="https://i.ibb.co/jgw28q7/light-bulb.png"> </h2>
+<h2>สิ่งที่คาดว่าจะได้รับ   <img src="https://i.ibb.co/jgw28q7/light-bulb.png"> </h2>
 <p>ทำให้การหารค่าอาหารสะดวกมากขึ้น และมีความถูกต้องตามความเป็นจริงมากที่สุด</p>
 
 <h2>ผู้พัฒนา<img src="https://i.ibb.co/QCBpG1X/programming-code-signs.png"></h2>
