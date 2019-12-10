@@ -17,7 +17,7 @@
 <ol>ขั้นตอนการทำงานแบ่งเป็น 2 วิธี
  <br>
  <li>เขียนโปรแกรมโดยใช้ Python <a href="https://github.com/Kanya26/We-need-sum-food/blob/master/priceedit.py">priceedit.py</a></li>
- <img src="https://i.ibb.co/W0pwqyX/122646.jpg">
+ <img src="https://i.ibb.co/drcyYp5/readme.png">
 <li>ใช้ JavaScript รวมกับ HTML และใช้ Responsive Web Design ให้ออกมาเป็น Web application <a href="https://github.com/Kanya26/We-need-sum-food/blob/master/priceedit.py">รอไฟล์ใส่อยู่จ้า</a></li>
 </ol>
 
