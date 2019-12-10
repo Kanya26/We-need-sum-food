@@ -7,6 +7,7 @@
  มีส้มตำ ราคา 30 บาท คนที่กินมีแบม แอ้นและบิว น้ำตกในราคา 50 บาท คนที่กินคือทุกคน</p>
 
 <ol>ผลลัพธ์ก็จะออกมา คือ
+ <br>
 <li>แบมต้องจ่ายเงินจำนวน 20 บาท</li>
 <li>บิวต้องจ่ายเงินจำนวน 20 บาท</li>
 <li>แอ้นต้องจ่ายเงินจำนวน 20 บาท</li>
@@ -14,6 +15,7 @@
 <li>แพร์ต้องจ่ายเงินจำนวน 10 บาท</li>
 </ol> 
 <ol>ขั้นตอนการทำงานแบ่งเป็น 2 วิธี
+ <br>
  <li>เขียนโปรแกรมโดยใช้ Python <a href="https://github.com/Kanya26/We-need-sum-food/blob/master/priceedit.py">priceedit.py</a></li> 
 <li>ใช้ JavaScript รวมกับ HTML และใช้ Responsive Web Design ให้ออกมาเป็น Web application</li>
 </ol>
