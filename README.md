@@ -14,7 +14,9 @@
 <li>แพร์ต้องจ่ายเงินจำนวน 10 บาท</li>
 </ol> 
 <ol>ขั้นตอนการทำงานแบ่งเป็น 2 วิธี
-<li>เขียนโปรแกรมโดยใช้ Python</li>
+<li>เขียนโปรแกรมโดยใช้ Python
+ [priceedit.py](https://github.com/Kanya26/We-need-sum-food/blob/master/priceedit.py)
+ </li>
 <li>ใช้ JavaScript รวมกับ HTML และใช้ Responsive Web Design ให้ออกมาเป็น Web application</li>
 </ol>
 
