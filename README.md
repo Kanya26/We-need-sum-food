@@ -15,7 +15,7 @@
 </ol> 
 <ol>ขั้นตอนการทำงานแบ่งเป็น 2 วิธี
 <li>เขียนโปรแกรมโดยใช้ Python
- [kanya26](https://github.com/Kanya26)
+ [Google](www.google.com)
  </li>
 <li>ใช้ JavaScript รวมกับ HTML และใช้ Responsive Web Design ให้ออกมาเป็น Web application</li>
 </ol>
