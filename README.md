@@ -1,5 +1,5 @@
 # We Need Sum Food <img src="https://i.ibb.co/fMxTBg0/cutlery-2.png">
-<h1>ปัญหา <img src="https://i.ibb.co/7SfKhq7/confused.png"></h1> 
+<h2>ปัญหา <img src="https://i.ibb.co/7SfKhq7/confused.png"></h2> 
 <p>เวลาที่ไปรับประทานอาหารกับกลุ่มเพื่อนมักประสบปัญหาในการจ่ายค่าอาหารต่างๆ บางคนรับประทานไม่ครบทุกอย่าง บางคนก็รับประทานทั้งหมด 
 อาจจะทำให้คนรับประทานไม่ครบทุกอย่างเสียเงินมากเกินกว่าความจำเป็น</p>
 <h2>วิธีการแก้ปัญหา <img src="https://i.ibb.co/bKwR8HK/spanner.png"></h2> 
