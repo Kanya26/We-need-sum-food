@@ -1,7 +1,7 @@
 """How much does it cost?"""
 import json
 def main():
-    """Use dictionary as input. if you want to stop to input yourname ,you can input("End")"""
+    """Use dictionary as input. if you want to stop to input yourname ,you can input('End')"""
     group_of_list = []
     group = {}
     count = 0
