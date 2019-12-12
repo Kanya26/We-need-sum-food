@@ -16,11 +16,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+    <style>
+        #imginjs{
+            height: 80;
+            width: 800;
+        }
+    </style>
+
 </head>
 <body>
     <div class="container bg-light">
         <div class="row">
-            <div class="col-md-12 p-0">
+            <div class="col-12 p-0">
                 <img src="https://scontent.fbkk6-1.fna.fbcdn.net/v/t1.0-9/s960x960/78234026_2538279926292371_1852890058755932160_o.jpg?_nc_cat=111&_nc_eui2=AeHKkvmo2dzqUrTy36gVgQtizxwR6RyK5uxtHstbeWcBIkpQWpz8BbP6rWy0xELGBzRzozmu__Kx3ljIRB2CKp6GiIbkgQEl1yrQs8Qt0yCCwQ&_nc_ohc=xrxvcIahS1sAQn4Wtz30cGTmiQWnHHNfJFZAfJNE5O3yk0RdDHagBDJIA&_nc_ht=scontent.fbkk6-1.fna&oh=5f5754d2f0d1936575f91ec60f4747e4&oe=5E47BFCA"
                     class="img-fluid w-100" draggable="false">
             </div>
@@ -29,17 +36,18 @@
         <br>
         <div class="container bg-light">
         <hr style="width: 100%;  height: 10px; background-color:#1f3461;">
+        
         <div class="row">
-            <div class="col-9">
-            </div>
-            <div class="col-3">
-                <a href="Contact.html"><img src="https://i.ibb.co/kmqpm9Q/contact-want-to-change.gif" class="img-thumbnail" style="width: 100%;"></a>
+            <div class="col-12">
+                <center>
+                <img src="https://i.ibb.co/bBhP97F/1.png?fbclid=IwAR1krUNUBAitPkHZut8jLEdbz8g2mf8sHgJAH9sxBd6_5NqsyIYjw1j64w0"  height="100%" width="70%">
             </div>
         </div>
     
     
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
+                
                 <h1 style="padding-top: 20px; padding-bottom: 10px" class="bg-light text-black">
                     จำนวนอาหาร
                 </h1>
@@ -55,7 +63,14 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
+                <center>
+                <img src="https://i.ibb.co/YfGJFCh/3.png?fbclid=IwAR2NFBUwFpm6WCzi1r-0Z7fiBpv-yuonSL2eFYp-82AKvAhsP1EmNhM8RpY"  height="100%" width="70%">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
                 <h1 style="padding-top: 20px; padding-bottom: 10px" class="bg-light text-black">
                     จำนวนคน
                 </h1>
@@ -73,7 +88,14 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
+                <center>
+                <img src="https://i.ibb.co/FJPfkVS/5.png?fbclid=IwAR2w3wdswiM22ipAyyLM9WJ2k86X9y7LdLYQhLIZzAzYdO0sguPw3JyNXDo"  height="100%" width="70%">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
                 <h1 style="padding-top: 20px; padding-bottom: 10px" class="bg-light text-black">
                     ขั้นตอนถัดไป
                 </h1>
@@ -84,14 +106,14 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
                 <div id="container3">
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-12">
                 <div id="container4">
                 </div>
                 <p id="demo">
@@ -122,6 +144,21 @@
             while (container.hasChildNodes()) {
                 container.removeChild(container.lastChild);
             }
+
+            var pic2 = document.createElement("img");
+            pic2.setAttribute("src", "https://i.ibb.co/M2tZZ4N/2.png?fbclid=IwAR0SnnuKDerFRcx6nhbKejrWBTDESuUcp-6e7GbiHGdosVsSG78KXMh6C_M");
+            pic2.style = "height: 100%; width: 84.5%; padding-left: 14%;";
+            container.appendChild(pic2);
+            container.appendChild(document.createElement("br"));
+
+
+
+
+
+
+
+
+
 
             for (i=0; i<number; i++){
 
@@ -174,6 +211,12 @@
                 container.removeChild(container.lastChild);
             }
 
+            var pic3 = document.createElement("img");
+            pic3.setAttribute("src", "https://i.ibb.co/0KfBvzV/4.png?fbclid=IwAR0nXFs73RcaNBSGo_zaUe3WsSLfdGN1cB1PVnfj0zgkEhmihO2IOf6SV78");
+            pic3.style = "height: 100%; width: 84.5%; padding-left: 14%;";
+            container.appendChild(pic3);
+            container.appendChild(document.createElement("br"));
+
             for (j=0; j<number; j++){
                 container.appendChild(document.createTextNode("ชื่อคนที่ " + (j+1)));
 
@@ -202,6 +245,13 @@
 
             var space = container.appendChild(document.createElement("h1"));
             space.style = "padding-top: 20px; font-size: 40px";
+            var pic4 = document.createElement("img");
+            
+            pic4.setAttribute("src", "https://i.ibb.co/6YnYww9/66.png?fbclid=IwAR1krUNUBAitPkHZut8jLEdbz8g2mf8sHgJAH9sxBd6_5NqsyIYjw1j64w0");
+            pic4.style = "height: 100%; width: 84.5%; padding-left: 14%;";
+            container.appendChild(pic4);
+            container.appendChild(document.createElement("br"));
+            
             var text1 = document.createTextNode("ใครกินอะไรบ้าง")
             space.appendChild(text1);
             container.appendChild(space);
