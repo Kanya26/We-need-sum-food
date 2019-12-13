@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>We need sum food</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+            body{
+                background-image: url('http://papers.co/wallpaper/papers.co-sk24-red-yellow-soft-pastel-blur-gradation-25-wallpaper.jpg');
+                background-attachment: fixed;
+                background-repeat: repeat;
+                background-size: cover;
+            }
+            #imginjs{
+            height: 80;
+            width: 800;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col-12 p-0">
+                <img src="https://scontent.fbkk6-1.fna.fbcdn.net/v/t1.0-9/s960x960/78234026_2538279926292371_1852890058755932160_o.jpg?_nc_cat=111&_nc_eui2=AeHKkvmo2dzqUrTy36gVgQtizxwR6RyK5uxtHstbeWcBIkpQWpz8BbP6rWy0xELGBzRzozmu__Kx3ljIRB2CKp6GiIbkgQEl1yrQs8Qt0yCCwQ&_nc_ohc=xrxvcIahS1sAQn4Wtz30cGTmiQWnHHNfJFZAfJNE5O3yk0RdDHagBDJIA&_nc_ht=scontent.fbkk6-1.fna&oh=5f5754d2f0d1936575f91ec60f4747e4&oe=5E47BFCA"
+                    class="img-fluid w-100" draggable="false">
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr style="width: 100%;  height: 10px; background-color:#1f3461;">
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <center>
+                <img src="https://i.ibb.co/bBhP97F/1.png?fbclid=IwAR1krUNUBAitPkHZut8jLEdbz8g2mf8sHgJAH9sxBd6_5NqsyIYjw1j64w0"  height="100%" width="70%">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h1 style="padding-top: 20px; padding-bottom: 10px">
+                    How many food?
+                </h1>
+                <input type="text" id="food" style="border-radius: 5px; border: 2px solid lightgray; padding: 20px; width: 100%; height: 15px;" placeholder="type your food(s) range">
+                <h1 style="padding-bottom: 10px">
+                </h1>
+                <button type="button" class="btn btn-primary" onclick="stepOne()" style="width: 100%">Submit</button>
+                <h1 style="padding-bottom: 20px">
+                </h1>
+                <div id="container1">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-12">
+                    <center>
+                    <img src="https://i.ibb.co/YfGJFCh/3.png?fbclid=IwAR2NFBUwFpm6WCzi1r-0Z7fiBpv-yuonSL2eFYp-82AKvAhsP1EmNhM8RpY"  height="100%" width="70%">
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h1 style="padding-top: 20px; padding-bottom: 10px">
+                    How many people?
+                </h1>
+                <input type="text" id="people" style="border-radius: 5px; border: 2px solid lightgray; padding: 20px; width: 100%; height: 15px;" placeholder="type your people(s) range">
+                <h1 style="padding-bottom: 10px">
+                </h1>
+                <button type="button" class="btn btn-primary" onclick="stepTwo()" style="width: 100%">Submit</button>
+                <h1 style="padding-bottom: 20px">
+                </h1>
+
+                <div id="container2">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <center>
+                <img src="https://i.ibb.co/FJPfkVS/5.png?fbclid=IwAR2w3wdswiM22ipAyyLM9WJ2k86X9y7LdLYQhLIZzAzYdO0sguPw3JyNXDo"  height="100%" width="70%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="padding-top: 20px; padding-bottom: 10px">
+                    Click when finish your input
+                </h1>
+                <button type="button" class="btn btn-primary" onclick="stepThree()" style="width: 100%">Click Me!</button>
+                <h1 style="padding-bottom: 20px">
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="container3">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="container4">
+                </div>
+                <p id="demo">
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-12">
+            <h1 style="padding-bottom: 20px">  
+            </h1>
+            <hr style="width: 100%; height: 2px; background-color:#1f3461;">
+                </div>
+            </div>
+
+        <div class="row">
+            <div class="col-8">
+                <a  href="Contact.html"><img src="https://i.ibb.co/kmqpm9Q/contact-want-to-change.gif" style="width: 20%;"></a>
+            </div>
+            <div class="col-4">
+                    <h3>Language</h3>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-8"></div>
+                <div class="col-2">
+                    <p>English : <a href="EnglishVersion.html"><img src="https://cdn10.bigcommerce.com/s-hhbbk/products/2194/images/5802/UNKG4003__33888.1460461096.1280.1280__50892.1480682060.1280.1280.png?c=2" style="width: 20%;"></a></p>
+                </div>
+                <div class="col-2">   
+                    <p>Thai : <a href="ThaiVersion.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1200px-Flag_of_Thailand.svg.png" style="width: 20%;"></a></p>
+                </div>
+            </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+
+    <script>
+        function stepOne(){
+            var FoodTypeAmount = parseInt(document.getElementById("food").value)
+
+            //parseInt คือ คำสั่งสำหรับการแปลงชนิดของข้อมูลให้อยู่ในรูปของตัวเลขจำนวนเต็ม
+
+            //กรณีแรกถ้าไม่เติมอะไรเลย กรณีที่สองถ้าค่าเป็น0 หรือ ติดลบ
+            if (!FoodTypeAmount) {
+                alert("Please type your food(s) range")
+            }
+            else if (FoodTypeAmount <= 0){
+                alert("Please try again")
+            }
+            else {
+            var number = document.getElementById("food").value;
+            var container = document.getElementById("container1");
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+
+            var pic2 = document.createElement("img");
+            pic2.setAttribute("src", "https://i.ibb.co/M2tZZ4N/2.png?fbclid=IwAR0SnnuKDerFRcx6nhbKejrWBTDESuUcp-6e7GbiHGdosVsSG78KXMh6C_M");
+            pic2.style = "height: 100%; width: 84.5%; padding-left: 14%;";
+            container.appendChild(pic2);
+            container.appendChild(document.createElement("br"));
+
+            for (i=0; i<number; i++){
+
+                container.appendChild(document.createTextNode("Food " + (i+1)));
+
+                var input = document.createElement("input");
+                input.type = "text";
+                input.id = "food" + (i+1);
+                input.style = "border-radius: 5px; border: 2px solid lightgray; padding: 20px; width: 100%; height: 15px;";
+                input.placeholder = "type your food(s) here";
+                container.appendChild(input);
+
+                container.appendChild(document.createElement("br"));
+
+                container.appendChild(document.createTextNode("Price"));
+
+                var input2 = document.createElement("input");
+                input2.type = "text";
+                input2.id = "price" + (i+1);
+                input2.style = "border-radius: 5px; border: 2px solid lightgray; padding: 20px; width: 100%; height: 15px;";
+                input2.placeholder = "type food(s) price here";
+                container.appendChild(input2);
+
+                container.appendChild(document.createElement("h1"));
+                var space = document.createElement("h1");
+                space.style = "padding-top: 20px";
+                container.appendChild(space);
+
+                container.appendChild(document.createElement("hr"));
+            }
+            }
+        }
+
+        function stepTwo(){
+            var PeopleTypeAmount = parseInt(document.getElementById("people").value)
+
+            //parseInt คือ คำสั่งสำหรับการแปลงชนิดของข้อมูลให้อยู่ในรูปของตัวเลขจำนวนเต็ม
+
+            //กรณีแรกถ้าไม่เติมอะไรเลย กรณีที่สองถ้าค่าเป็น0 หรือ ติดลบ
+            if (!PeopleTypeAmount) {
+                alert("Please type your people(s) range")
+            }
+            else if (PeopleTypeAmount <= 0){
+                alert("Please try again")
+            }
+            else {
+            var number = document.getElementById("people").value;
+            var container = document.getElementById("container2");
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+
+            var pic3 = document.createElement("img");
+            pic3.setAttribute("src", "https://i.ibb.co/0KfBvzV/4.png?fbclid=IwAR0nXFs73RcaNBSGo_zaUe3WsSLfdGN1cB1PVnfj0zgkEhmihO2IOf6SV78");
+            pic3.style = "height: 100%; width: 84.5%; padding-left: 14%;";
+            container.appendChild(pic3);
+            container.appendChild(document.createElement("br"));
+
+            for (j=0; j<number; j++){
+                container.appendChild(document.createTextNode("People " + (j+1)));
+
+                var input = document.createElement("input");
+                input.type = "text";
+                input.id = "people" + (j+1);
+                input.style = "border-radius: 5px; border: 2px solid lightgray; padding: 20px; width: 100%; height: 15px;";
+                input.placeholder = "type his/her/your name";
+                container.appendChild(input);
+
+                container.appendChild(document.createElement("br"));
+
+                container.appendChild(document.createElement("hr"));
+            }
+        }
+        }
+
+        function stepThree(){
+            var valuePeople = document.getElementById("people").value;
+            var valueFood = document.getElementById("food").value;
+
+            var container = document.getElementById("container3");
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+
+            var space = container.appendChild(document.createElement("h1"));
+            space.style = "padding-top: 20px; font-size: 40px";
+            var pic4 = document.createElement("img");
+            
+            pic4.setAttribute("src", "https://i.ibb.co/6YnYww9/66.png?fbclid=IwAR1krUNUBAitPkHZut8jLEdbz8g2mf8sHgJAH9sxBd6_5NqsyIYjw1j64w0");
+            pic4.style = "height: 100%; width: 84.5%; padding-left: 14%;";
+            container.appendChild(pic4);
+            container.appendChild(document.createElement("br"));
+            
+            var text1 = document.createTextNode("Who ate what?")
+            space.appendChild(text1);
+            container.appendChild(space);
+            container.appendChild(document.createElement("hr"));
+
+            for (i=0; i<valueFood; i++){
+                var food = document.getElementById("food"+(i+1)).value;
+                var space = container.appendChild(document.createElement("h1"));
+                space.style = "font-size: 25px; padding-top: 15px";
+                var text1 = document.createTextNode(food)
+                space.appendChild(text1);
+                container.appendChild(space);
+                container.appendChild(document.createElement("br"));
+    
+                for (j=0; j<valuePeople; j++){
+                    
+                    var input = document.createElement("input");
+                    input.type = "checkbox";
+                    input.id = (i+1) + "food" + (j+1);
+                    input.style = "width: 50px";
+                    container.appendChild(input);
+
+                    var people = document.getElementById("people"+(j+1)).value;
+                    container.appendChild(document.createTextNode(people));
+
+                    container.appendChild(document.createElement("br"));
+
+                }
+                container.appendChild(document.createElement("hr"));
+                    
+            }
+            nextButton = document.createElement("button")
+            nextButton.innerHTML = "Submit"
+            nextButton.setAttribute("class", "btn btn-primary btn-block")
+            nextButton.setAttribute("type", "button")
+            nextButton.setAttribute("onClick", "stepFour()")
+            container.appendChild(nextButton);
+
+        }
+        function stepFour(){
+            var container = document.getElementById("container4");
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+
+            var valuePeople = document.getElementById("people").value;
+            var valueFood = document.getElementById("food").value;
+            var arr = [];
+            var originalFood = [];
+            var foodValue = [];
+
+            for (i=0; i<valueFood; i++){
+                var food = document.getElementById("food" + (i+1)).value;
+                originalFood.push(food);
+            }
+
+            for (j=0; j<valuePeople; j++){
+                var txt = "";
+                var count = 0;
+                for (i=0; i<valueFood; i++){
+                    if (document.getElementById((i+1) + "food" + (j+1)).checked) {
+                        txt += document.getElementById("food"+(i+1)).value;
+                    }
+                }
+                arr.push(txt);
+            }
+
+            for (j=0; j<valueFood; j++){
+                var count = 0;
+                for (i=0; i<valuePeople; i++){
+                    if (document.getElementById((j+1) + "food" + (i+1)).checked) {
+                        count += 1
+                    }
+                }
+                foodValue.push(count);
+            }
+
+            var fixFoodValue = [];
+            for (i=0; i<valueFood; i++){
+                var price = parseInt(document.getElementById("price" + (i+1)).value);
+                var divider = foodValue[i]
+                fixFoodValue.push(Math.ceil(price/divider));
+            }
+
+            container.appendChild(document.createElement("br"));
+            for (i=0; i<valuePeople; i++){
+                var space = container.appendChild(document.createElement("h3"));
+                var people = document.getElementById("people"+(i+1)).value+"pay";
+                var text1 = document.createTextNode(people)
+                space.appendChild(text1);
+                container.appendChild(space);
+
+                var check = arr[i]
+                var ans = 0
+                for (j=0; j<valueFood; j++){
+                    var food = originalFood[j]
+                    if (check.includes(food)){
+                        ans += fixFoodValue[j]
+                    }
+                }
+            var space = container.appendChild(document.createElement("h1"));
+            var text1 = document.createTextNode(ans);
+            space.appendChild(text1);
+            var baht = document.createTextNode(" $");
+            space.appendChild(baht);
+            container.appendChild(space);
+            container.appendChild(document.createElement("hr"));
+            }
+        }
+    </script>
+</body>
+</html>
