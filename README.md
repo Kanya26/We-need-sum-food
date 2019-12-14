@@ -20,7 +20,11 @@
  <img src="https://i.ibb.co/PhV2j27/readme-yeahhhh.png">
 <li>ใช้ JavaScript รวมกับ HTML และใช้ Responsive Web Design ให้ออกมาเป็น Web application <a href="https://github.com/Kanya26/We-need-sum-food/blob/master/priceedit.py">รอไฟล์ใส่อยู่จ้า</a></li>
 </ol>
-
+<h2>วิธีการใช้งาน</h2>
+<img src="https://i.ibb.co/vmyN0qM/1.jpg"><br>
+<img src="https://i.ibb.co/HYxXZ0H/2.jpg"><br>
+<img src="https://i.ibb.co/HYxXZ0H/3.jpg"><br>
+<img src="https://i.ibb.co/HYxXZ0H/4.jpg"><br>
 <h2>สิ่งที่คาดว่าจะได้รับ   <img src="https://i.ibb.co/jgw28q7/light-bulb.png"> </h2>
 <li>สามารถนำไปใช้ได้จริงในชีวิตประจำวันได้</li>
 <li>ได้รับความรู้ในการเขียน HTML และ Javascript มากขึ้น</li>
