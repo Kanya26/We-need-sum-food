@@ -4,9 +4,9 @@
 อาจจะทำให้คนรับประทานไม่ครบทุกอย่างเสียเงินมากเกินความจำเป็น</p>
 <h2>วิธีการแก้ปัญหา <img src="https://i.ibb.co/bKwR8HK/spanner.png"></h2> 
 <p>สร้างโปรแกรมหารค่าอาหารโดยให้ค่าอาหารออกมาเป็นรายคน เช่น รับประทานอาหารกัน 3 คน มีBam Biew และBob สั่งอาหารมา 3 อย่าง</p>
- <li>ลาบ ราคา 30 บาท คนที่ทานมี BamและBob</li>
- <li>น้ำตก ราคา 30 บาท คนที่ทานมี Bam BiewและBob</li>
- <li>ข้าวเหนียว ราคา 9 บาท คนที่ทานมี BamและBiew</li>
+ <li>ลาบ ราคา 30 บาท คนที่ทานมี Bam และ Bob</li>
+ <li>น้ำตก ราคา 30 บาท คนที่ทานมี Bam Biew และ Bob</li>
+ <li>ข้าวเหนียว ราคา 9 บาท คนที่ทานมี Bam และ Biew</li>
 <br>
 <ol>ผลลัพธ์ก็จะออกมา คือ
  <br>
@@ -18,7 +18,7 @@
  <br>
  <li>เขียนโปรแกรมโดยใช้ Python <a href="https://github.com/Kanya26/We-need-sum-food/blob/master/priceedit.py">priceedit.py</a></li>
  <img src="https://i.ibb.co/PhV2j27/readme-yeahhhh.png">
-<li>ใช้ JavaScript รวมกับ HTML และใช้ Responsive Web Design ให้ออกมาเป็น Web application <a href="https://github.com/Kanya26/We-need-sum-food/blob/master/priceedit.py">รอไฟล์ใส่อยู่จ้า</a></li>
+<li>ใช้ JavaScript รวมกับ HTML และใช้ Responsive Web Design ให้ออกมาเป็น Web application <a href="https://kanya26forpsit.firebaseapp.com/index.html">We need sum food</a></li>
 </ol>
 <h2>วิธีการใช้งาน</h2>
 <img src="https://i.ibb.co/vmyN0qM/1.jpg"><br>
