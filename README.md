@@ -24,7 +24,7 @@
 <img src="https://i.ibb.co/vmyN0qM/1.jpg"><br>
 <img src="https://i.ibb.co/HYxXZ0H/2.jpg"><br>
 <img src="https://i.ibb.co/HYxXZ0H/3.jpg"><br>
-<img src="https://i.ibb.co/HYxXZ0H/4.jpg"><br>
+<img src="https://i.ibb.co/QH1v8Vv/4.jpg"><br>
 <h2>สิ่งที่คาดว่าจะได้รับ   <img src="https://i.ibb.co/jgw28q7/light-bulb.png"> </h2>
 <li>สามารถนำไปใช้ได้จริงในชีวิตประจำวันได้</li>
 <li>ได้รับความรู้ในการเขียน HTML และ Javascript มากขึ้น</li>
